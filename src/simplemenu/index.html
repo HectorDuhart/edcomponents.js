@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" id="google-fonts-lato-css" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" type="text/css" media="all">
+    
+    
+    <link rel="stylesheet" href="./style.css">
+    <!-- <link rel="stylesheet" href="./dev.css"> -->
+    <title>Hello World</title>
+    <script type="module" src="index.js" ></script>
+    <script src="listen.js" defer></script>
+    <script>
+        window.mobileMenu = {
+            "mobile": {
+                "buttonId": "EDButtonRoot",
+                "menuId": "EDMenuRoot",
+            },
+            "desktop": {
+                "menuId": "EDButtonRoot",
+            },
+            "buttonId": "EDButtonRoot",
+            "menuId": "EDMenuRoot",
+            "beginOpen": false,
+            "breakWidth": 760,
+            "entries": {
+                "/": {
+                    "name": "Home Page",
+                    "url": "/"
+                },
+                "/products": {
+                    "name": "Products",
+                    "entries": {
+                    "/electronics": {
+                        "name": "Electronic Products",
+                        "url": "/products/electronics"
+                    },
+                    "/beauty": {
+                        "name": "Beauty Products",
+                        "url": "/products/beauty"
+                    },
+                    "/men": {
+                        "name": "Products Men",
+                        "entries": {
+                        "/wallets": {
+                            "name": "Men Wallets",
+                            "url": "/products/men/wallets"
+                        },
+                        "/belts": {
+                            "name": "Men Belts",
+                            "url": "/products/men/belts"
+                        }
+                        }
+                    }
+                    }
+                },
+                "/about-us": {
+                    "name": "About Us",
+                    "url": "/about-us",
+                    "entries": {
+                    "/history": {
+                        "name": "Our History",
+                        "url": "/about-us/history"
+                    },
+                    "/team": {
+                        "name": "Our Team",
+                        "url": "/about-us/team"
+                    }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
+        <symbol id="svg-triangle" viewBox="0 0 160 140" xmlns="http://www.w3.org/2000/svg"><g><path d="M80 0L0 140h160z"/></g></symbol>
+    </svg>
+    <div id="sticky-section">
+        <header class="page-header">
+            <div class="header-bar">
+                <p class="logo-bar">
+                    <img src="http://edlogix.com/img/Logo-250-98.png" alt="" class="site-logo">
+                    <span id="EDButtonRoot"></span>
+                </p>
+                <p class="menu-bar" id="EDMenuRoot"></p>
+            </div>
+        </header>
+        <header class="status-header">
+            <div class="status-bar" >
+                <a href="#">Root</a>><a href="#">Parent</a>><a href="#">Current</a>
+            </div>
+        </header>
+    </div>
+    <main>
+        <article id="articleid-1">
+            <header class="article-header">
+                <h2><a href="#articleid-1">Article Title</a></h2>
+                <h4>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus qui porro, officiis iste voluptates dolore iusto? Ab, ipsa impedit numquam animi delectus est similique repellat, fugiat eaque at fuga a!
+                </h4>
+            </header>
+            <section>
+                <header class="section-header">
+                    <h3>Section Title</h3>
+                    <h4>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus qui porro, officiis iste voluptates dolore iusto? Ab, ipsa impedit numquam animi delectus est similique repellat, fugiat eaque at fuga a!
+                    </h4>
+                </header>
+                <div class="section-content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus qui porro, officiis iste voluptates dolore iusto? Ab, ipsa impedit numquam animi delectus est similique repellat, fugiat eaque at fuga a!
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus qui porro, officiis iste voluptates dolore iusto? Ab, ipsa impedit numquam animi delectus est similique repellat, fugiat eaque at fuga a!
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus qui porro, officiis iste voluptates dolore iusto? Ab, ipsa impedit numquam animi delectus est similique repellat, fugiat eaque at fuga a!
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus qui porro, officiis iste voluptates dolore iusto? Ab, ipsa impedit numquam animi delectus est similique repellat, fugiat eaque at fuga a!
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus qui porro, officiis iste voluptates dolore iusto? Ab, ipsa impedit numquam animi delectus est similique repellat, fugiat eaque at fuga a!
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus qui porro, officiis iste voluptates dolore iusto? Ab, ipsa impedit numquam animi delectus est similique repellat, fugiat eaque at fuga a!
+                    </p>
+                </div>
+            </section>
+            <section>
+                <header class="section-header">
+                    <h3>Section Title</h3>
+                    <h4>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus qui porro, officiis iste voluptates dolore iusto? Ab, ipsa impedit numquam animi delectus est similique repellat, fugiat eaque at fuga a!
+                    </h4>
+                </header>
+                <div class="section-content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus qui porro, officiis iste voluptates dolore iusto? Ab, ipsa impedit numquam animi delectus est similique repellat, fugiat eaque at fuga a!
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus qui porro, officiis iste voluptates dolore iusto? Ab, ipsa impedit numquam animi delectus est similique repellat, fugiat eaque at fuga a!
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus qui porro, officiis iste voluptates dolore iusto? Ab, ipsa impedit numquam animi delectus est similique repellat, fugiat eaque at fuga a!
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus qui porro, officiis iste voluptates dolore iusto? Ab, ipsa impedit numquam animi delectus est similique repellat, fugiat eaque at fuga a!
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus qui porro, officiis iste voluptates dolore iusto? Ab, ipsa impedit numquam animi delectus est similique repellat, fugiat eaque at fuga a!
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus qui porro, officiis iste voluptates dolore iusto? Ab, ipsa impedit numquam animi delectus est similique repellat, fugiat eaque at fuga a!
+                    </p>
+                </div>
+            </section>
+        </article>
+        <!-- Click To Action Section -->
+        <div class="cta-section">
+            <span>
+                <h2>
+                    Action Title
+                </h2>
+            </span>
+            <span>
+                <p class="action-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus qui porro, officiis iste voluptates dolore iusto? Ab, ipsa impedit numquam animi delectus est similique repellat, fugiat eaque at fuga a!
+                </p>
+                <p class="action-row">
+                    <button class="ed-button">Action Button</button>
+                </p>
+            </span>
+        </div>
+        <!-- Wide Title Section -->
+        <div class="wide-title">
+            <div>
+                <h2>
+                    This Is a Wide Title Section
+                </h2>
+            </div>
+            <svg><use href="#svg-triangle"></use></svg>
+        </div>
+
+        <div class="features-box">
+            <div class="fb-bak">
+                <div class="fb-container">
+                    <h3>Features Title</h3>
+                    <ul>
+                        <li>Feature</li>
+                        <li>Feature</li>
+                        <li>Feature</li>
+                        <li>Feature</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-bar">
+            <span>
+                <h3><a href="#">Cyber Security</a></h3>
+                <ul>
+                    <li><a href="#">Cloud Security</a></li>
+                    <li><a href="#">Database Security</a></li>
+                    <li><a href="#">Wordpress Security</a></li>
+                </ul>
+            </span>
+            <span>
+                <h3><a href="#">IT Development</a></h3>
+                <ul>
+                    <li><a href="#">High Performance Code</a></li>
+                    <li><a href="#">Web Component Development</a></li>
+                    <li><a href="#">Wordpress Custom Components</a></li>
+                </ul>
+            </span>
+            <span>
+                <h3><a href="#">Digital Marketing</a></h3>
+                <ul>
+                    <li><a href="#">Ad Campaings</a></li>
+                    <li><a href="#">Shopping Campaings</a></li>
+                    <li><a href="#">Market Segmentation</a></li>
+                    <li><a href="#">High Conversion</a></li>
+                </ul>
+            </span>
+            <span>
+                <h3><a href="#">About Us</a></h3>
+                <ul>
+                    <li><a href="#">Our History</a></li>
+                    <li><a href="#">Our Technology</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </span>
+        </div>
+    </footer>
+</body>
+</html>

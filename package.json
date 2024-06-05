@@ -1,0 +1,24 @@
+{
+  "name": "mobilemenu",
+  "version": "1.0.0",
+  "description": "",
+  "targets": {
+    "simplemenu": {
+      "source": "src/simplemenu/index.html"
+    },
+    "carousel": {
+      "source": "src/carousel/index.html"
+    }
+  },
+  "scripts": {
+    "start": "parcel",
+    "build-simplemenu": "parcel build --no-cache --dist-dir final --target simplemenu",
+    "build-carousel": "parcel build --no-cache --dist-dir final --target carousel"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "eddom": "file:../eddom.js"
+  }
+}
